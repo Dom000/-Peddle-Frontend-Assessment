@@ -14,8 +14,8 @@ function home() {
       <div className="rounder3"></div>
       <div className="flex justify-center mt-20 items-center">
         <div className="lg:max-w-[500px] flex-col flex justify-center items-center">
-          <div>
-            <h1 className="text-white text-center text-4xl font-bold">
+          <div className="w-[80%] lg:w-full">
+            <h1 className="text-white text-center lg:text-4xl font-bold">
               SOMETHING AWESOME IS COMING SOON
             </h1>
             <p className="text-[#c5c5c5] text-sm text-center mt-6">
@@ -48,19 +48,19 @@ function home() {
             />
           </div>
           <div>
-            <div className="flex space-x-8 ">
+            <div className="flex space-x-2 lg:space-x-8 ">
               <input
                 type="text"
-                className="bg-transparent  border-b-2 border-[#3c3246] focus:outline-none  h-12 px-4 text-left text-white"
+                className="bg-transparent w-[160px] lg:w-full border-b-2 border-[#3c3246] focus:outline-none  h-12 lg:px-4 text-left text-white"
                 placeholder="First Name.."
               />
               <input
                 type="text"
-                className="bg-transparent border-[#3c3246]   border-b-2 focus:outline-none h-12 px-4 text-left text-white"
+                className="bg-transparent w-[160px] lg:w-full border-[#3c3246]   border-b-2 focus:outline-none lg:h-12 px-4 text-left text-white"
                 placeholder="Last Name.."
               />
             </div>
-            <div className="flex my-8 relative ">
+            <div className=" flex my-8 relative ">
               <input
                 className="rounded-full w-[95%] bg-white border-none py-2 text-black px-7"
                 placeholder="Enter your email address..."
@@ -69,7 +69,7 @@ function home() {
                 {" "}
                 <Btn
                   className={
-                    "text-white cursor-pointer font-semibold absolute left-[58%] text-[12px]  rounded-full bg-[#2323da] py-3 px-7"
+                    "text-white cursor-pointer font-semibold absolute left-[39%] lg:left-[58%] text-[12px]  rounded-full bg-[#2323da] py-3 px-7"
                   }
                   text={"JOIN OUR WAITING LIST"}
                 />

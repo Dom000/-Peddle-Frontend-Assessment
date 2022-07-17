@@ -20,27 +20,27 @@ function Header() {
         >
           <div className="rounder4 -z-10"></div>
 
-          <div className="flex flex-col z-30 mt-20 justify-center items-center">
-            <p className="font-semibold text-2xl my-10 text-white text-center">
+          <div className="flex flex-col z-30 mt-4 lg:mt-20 justify-center items-center">
+            <p className="font-semibold lg:text-2xl my-10 text-white text-center">
               Hey,We are still in the works, but you can send us a message!
             </p>
             <div>
-              <div className="w-[400px]">
+              <div className="w-[250px] lg:w-[400px]">
                 <label className="text-white ">first Name</label>
                 <br />
                 <input placeholder="Enter your first name..." type={"text"} className=" p-4  my-3 rounded-md w-full" />
               </div>
-              <div className="w-[400px]">
+              <div className="w-[250px] lg:w-[400px]">
                 <label className="text-white ">flast Name</label>
                 <br />
                 <input placeholder="Enter your last name..." type={"text"} className=" p-4  my-3 rounded-md w-full" />
               </div>
-              <div className="w-[400px]">
+              <div className="w-[250px] lg:w-[400px]">
                 <label className="text-white ">Email Address</label>
                 <br />
                 <input type={"text"} placeholder="Enter your Email address..." className=" p-4  my-3 rounded-md w-full" />
               </div>
-              <div className="w-[400px]">
+              <div className="w-[250px] lg:w-[400px]">
                 <label className="text-white ">
                   Tell us with you need with it
                 </label>
