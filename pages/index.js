@@ -2,18 +2,18 @@ import React from "react";
 import { Fade } from "react-reveal";
 import Btn from "../constants/Btn";
 import Cards from "../constants/Cards";
-import {AiFillYoutube,AiFillInstagram} from "react-icons/ai";
-import {FaFacebookSquare,FaLinkedin,FaTwitterSquare} from "react-icons/fa";
+import { AiFillYoutube, AiFillInstagram } from "react-icons/ai";
+import { FaFacebookSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import Footer from "../components/Footer";
 
 function home() {
   return (
     <Fade>
-           <div className="rounder"></div>
+      <div className="rounder"></div>
       <div className="rounder2"></div>
       <div className="rounder3"></div>
       <div className="flex justify-center mt-20 items-center">
-        <div className="max-w-[500px] flex-col flex justify-center items-center">
+        <div className="lg:max-w-[500px] flex-col flex justify-center items-center">
           <div>
             <h1 className="text-white text-center text-4xl font-bold">
               SOMETHING AWESOME IS COMING SOON
@@ -78,7 +78,6 @@ function home() {
           </div>
         </div>
       </div>
-      
     </Fade>
   );
 }

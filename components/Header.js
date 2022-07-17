@@ -62,13 +62,13 @@ function Header() {
           </div>
         </Modal>
       </Fade>
-      <div className="flex justify-between px-10 py-4">
+      <div className="flex justify-between lg:px-10 py-4">
         <div className="bg-transparent">
           <img className="w-20" src="/image.png" alt="logo" />
         </div>
 
-        <div className="flex justify-between w-[25%]">
-          <div className="flex justify-between mt-2 w-[40%] ">
+        <div className="flex justify-between w-[65%] lg:w-[25%]">
+          <div className="flex justify-between mt-2 space-x-3 lg:w-[40%] ">
             <p
               onClick={() => router.push("/")}
               className="text-white cursor-pointer text-sm"
@@ -86,7 +86,7 @@ function Header() {
             <Btn
               onClick={() => setOpened(true)}
               className={
-                "text-white font-semibold cursor-pointer text-[12px] rounded-full bg-[#2323da] py-2 px-4"
+                "text-white mr-1  font-semibold cursor-pointer text-[12px] rounded-full bg-[#2323da] py-2 px-4"
               }
               text={"CONTACT US"}
             />

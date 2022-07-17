@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Header />
 
-      <Component {...pageProps} />
+      {/* <Component {...pageProps} /> */}
     </div>
   );
 }
