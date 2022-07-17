@@ -25,7 +25,7 @@ function blog() {
               your campaigns
             </p>
           </div>
-          <div className="grid grid-cols-4 relative right-[30px] my-6 gap-16 max-w-[300px]">
+          <div className="grid grid-cols-4 relative right-[30px] mx-3 my-6 gap-16 max-w-[300px]">
             <Cards
               className={"rounded-md bg-[#ffffff] p-2 w-[80px] text-center"}
               text1={"7"}
@@ -81,7 +81,7 @@ function blog() {
       <div className="flex-col flex justify-center items-center">
 
         <div className="relative top-[60px] fter lg:top-[200px]">
-          <div className="flex space-x-5">
+          <div className="flex space-x-5 ml-3">
             <AiFillYoutube className="text-[#dadada] text-2xl"/>
             <FaFacebookSquare className="text-[#bdbdbd] h-5 mt-[2px] text-xl"/>
             <FaLinkedin className="text-[#bdbdbd] h-5 mt-[2px] text-xl"/>

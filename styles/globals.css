@@ -245,7 +245,7 @@ button,
 
 @media (max-width: 501px) {
   .container {
-    /* transform: translate(55%, 10%);  */
+    transform: translate(0%, 20%); 
     height: 145px;
     width: 300px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);

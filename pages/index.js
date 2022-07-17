@@ -25,7 +25,7 @@ function home() {
               your campaigns
             </p>
           </div>
-          <div className="grid grid-cols-4 relative right-[30px] my-6 gap-16 max-w-[300px]">
+          <div className="grid grid-cols-4 mx-3 relative right-[30px] my-6 gap-16 max-w-[300px]">
             <Cards
               className={"rounded-md bg-[#ffffff] p-2 w-[80px] text-center"}
               text1={"7"}

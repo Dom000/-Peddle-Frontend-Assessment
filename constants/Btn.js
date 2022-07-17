@@ -2,7 +2,7 @@ import React from 'react'
 
 function Btn({className,onClick,text}) {
   return (
-    <div className={`  ${className}`}  onClick={onClick}>{text}</div>
+    <div className={`  ${className}`}  onClick={onClick}><pre>{text}</pre></div>
   )
 }
 

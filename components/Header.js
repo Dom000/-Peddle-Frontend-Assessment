@@ -81,6 +81,7 @@ function Header() {
             >
               BLOG
             </p>
+            
           </div>
           <div>
             <Btn
