@@ -80,7 +80,7 @@ function blog() {
       </div>
       <div className="flex-col flex justify-center items-center">
 
-        <div className="relative top-[200px]">
+        <div className="relative top-[60px] fter lg:top-[200px]">
           <div className="flex space-x-5">
             <AiFillYoutube className="text-[#dadada] text-2xl"/>
             <FaFacebookSquare className="text-[#bdbdbd] h-5 mt-[2px] text-xl"/>
